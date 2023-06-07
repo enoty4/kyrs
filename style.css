@@ -1,0 +1,49 @@
+@font-face{
+    font-family: "OpenSans";
+    src: local("OpenSans")
+}
+.textArea{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Times New Roman', Times, serif;
+}
+.textArea p{
+    margin-left: 18%;
+    margin-right: 11%;
+}
+.results{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.results select{
+    width: 7%;
+    padding: 7px;
+    border-color: whitesmoke;
+}
+.results input{
+    width: 12%;
+    padding: 7px;
+    font-size: 15px;
+}
+.convert_resultKZT {
+    padding: 7px;
+    height: 6%;
+    width: 17%;
+    background-color: rgb(209, 203, 203);
+    border: 1px solid darkgrey;
+}
+.convert_resultUSD {
+    padding: 7px;
+    height:  6%;
+    width: 17%;
+    background-color: white;
+    border: 1px solid darkgrey;
+}
+.convert_resultEUR {
+    padding: 7px;
+    height: 6%;
+    width: 17%;
+    background-color: white;
+    border: 1px solid darkgrey;
+}
